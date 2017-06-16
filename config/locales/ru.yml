@@ -32,3 +32,33 @@ ru:
   app:
     name: 'Шашлыки'
     company: 'Хороший программист'
+
+  event:
+    edit: 'Изменить'
+    delete: 'Удалить'
+    save: 'Сохранить'
+    back: 'Вернуться'
+    create_caption: 'Создать событие'
+    list_caption: 'События'
+    edit_caption: 'Редактировать событие'
+
+  confirm_delete: 'Точно удалить событие?'
+
+  user:
+    profile: 'Профиль'
+    log_out: 'Выйти'
+    sign_in: 'Войти'
+    register: 'Зарегистрироваться'
+    change_pass: 'Сменить пароль'
+    save: 'Сохранить'
+    back: 'Вернуться'
+    edit: 'Редактировать профиль'
+    organized: 'Организовано'
+    no_organized: 'Пока ни одного события не организовано'
+
+  error:
+    one: '%{count} ошибка'
+    few: '%{count} ошибки'
+    many: '%{count} ошибок'
+
+  error_appear:  'В вашей форме '

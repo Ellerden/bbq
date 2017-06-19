@@ -31,7 +31,7 @@ class SubscriptionsController < ApplicationController
 
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+
     def set_subscription
       @subscription = @event.subscriptions.find(params[:id])
     end
@@ -40,8 +40,8 @@ class SubscriptionsController < ApplicationController
       @event = Event.find(params[:event_id])
     end
 
-    # Only allow a trusted parameter "white list" through.
     def subscription_params
+      # .fetch разрешает в params отсутствие ключа :subscription
       params.fetch(:subscription, {}).permit(:user_email, :user_name)
     end
 end

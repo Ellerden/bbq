@@ -1,0 +1,10 @@
+/*
+(с) goodprogrammer.ru
+Наши дополнительные стили для красивого оформления плитки событий
+ */
+
+.user-avatar .img-icon {
+  height: 20px;
+  margin-top: -2px;
+}
+

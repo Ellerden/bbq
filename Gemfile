@@ -11,6 +11,9 @@ gem 'devise-i18n'
 gem 'rails-i18n'
 # gem 'russian'
 
+gem 'carrierwave'
+gem 'rmagick', '>= 2.16.0'
+
 # gem 'rails', '~> 4.2.6'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'

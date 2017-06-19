@@ -13,6 +13,7 @@ ru:
         name: 'Имя'
         password: 'Пароль'
         password_confirmation: 'Подтверждение пароля'
+        avatar: 'Аватарка'
       event:
         title: 'Что будет?'
         address: 'Куда приходить?'

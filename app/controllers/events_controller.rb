@@ -45,10 +45,12 @@ class EventsController < ApplicationController
     end
   end
 
+  # ON DELETE CASCADE
+
   # DELETE /events/1
   def destroy
     @event.destroy
-    redirect_to events_url, notice: I18n.t('controllers.events.destroyed')
+    redirect_to events_psth, notice: I18n.t('controllers.events.destroyed')
   end
 
   private

@@ -13,6 +13,14 @@
           <div class="buffer-both"><%= event.address %></div>
         </div>
       </div>
+
+      <%# Выводим всех пользователей, которые придут на событие, выводя их аватарки %>
+        <% event.visitors.each do |user| %>
+          <%= link_to(image_tag(user_avatar_thumb(user), :class =>"img-icon", :title => user.name),
+                     user_path(user), class: 'avatar-inline') %>
+        <% end %>
     </div>
   </div>
 </div>
+
+

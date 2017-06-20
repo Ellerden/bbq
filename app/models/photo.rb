@@ -6,4 +6,5 @@ class Photo < ApplicationRecord
   validates :user, presence: true
 
   mount_uploader :photo, PhotoUploader
+  scope :persisted, -> {where "id IS NOT NULL"}
 end

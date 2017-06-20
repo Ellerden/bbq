@@ -1,4 +1,5 @@
 module ApplicationHelper
+
   def user_avatar(user)
     if user.avatar?
       user.avatar.url
@@ -7,11 +8,12 @@ module ApplicationHelper
     end
   end
 
+
   def user_avatar_thumb(user)
-    if user.avatar.file.present?
+    if user.avatar?
       user.avatar.thumb.url
     else
-      asset_path('avatar.png')
+      asset_path('avatar_thumb.png')
     end
   end
 

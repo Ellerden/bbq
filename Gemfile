@@ -13,6 +13,7 @@ gem 'rails-i18n'
 
 gem 'carrierwave'
 gem 'rmagick', '>= 2.16.0'
+gem 'fog-aws'
 
 # gem 'rails', '~> 4.2.6'
 gem 'uglifier', '>= 1.3.0'

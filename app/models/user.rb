@@ -20,7 +20,7 @@ class User < ApplicationRecord
 
   # Задаем юзеру случайное имя, если оно пустое
   def set_name
-    self.name = "Товарисч №#{rand(777)}" if self.name.blank?
+    self.name = "Комрад №#{rand(777)}" if self.name.blank?
   end
 
   def link_subscriptions

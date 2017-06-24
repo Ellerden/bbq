@@ -17,4 +17,8 @@ class Comment < ApplicationRecord
       super
     end
   end
+
+  def user_email
+    user.email if user.present?
+  end
 end
